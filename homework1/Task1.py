@@ -6,8 +6,6 @@ print(my_first_var + my_second_var)
 type(my_second_var)
 print(type(my_second_var))
 
-
-
 while True:
     user_info = input('Введите своё имя\n')
     if not user_info.isdigit():
@@ -16,4 +14,3 @@ while True:
     print('Имя вводится буквами')
 
 print(user_info)
-
